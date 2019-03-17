@@ -54,7 +54,7 @@
                     <div class="row">
                         <div class="col-sm-4">
                             <div class="logo pull-left">
-                                <a href="../view/main/index.php"><img src="../template/images/home/logo.png" alt="" /></a>
+                                <a href="../view/site/index.php"><img src="../template/images/home/logo.png" alt="" /></a>
                             </div>
                         </div>
                         <div class="col-sm-8">
