@@ -1,0 +1,9 @@
+RewriteEngine on
+
+RewriteBase /
+
+#Не нужно перенаправление, если файл находится в папке template
+RewriteCond %{REQUEST_FILENAME} !^.*/template/.*$
+
+RewriteRule ^(.*)$ FrontController.php
+
