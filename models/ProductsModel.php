@@ -9,8 +9,13 @@
 class ProductsModel
 {
 
-    public static function getProductsList()
-    {
 
+    const DEFAULT_AMOUNT = 10;
+
+    public static function getLastProductsList($count = self::DEFAULT_AMOUNT)
+    {
+        //здесь я уду реализовывть доставание продуктов из базы данных
+
+        //а тут незакешированные данные
     }
 }
