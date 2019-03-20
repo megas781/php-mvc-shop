@@ -9,7 +9,6 @@
 class ProductsModel
 {
 
-
     const DEFAULT_AMOUNT = 10;
 
     public static function getLastProductsList($count = self::DEFAULT_AMOUNT)
